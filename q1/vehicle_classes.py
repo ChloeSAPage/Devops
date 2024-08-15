@@ -8,7 +8,7 @@ class Wheeled(Vehicle):
         super().__init__(make)
         self._wheels = wheels
 
-    def wheels(self) -> int:
+    def get_wheels(self) -> int:
         return self._wheels
 
 
@@ -26,4 +26,4 @@ class Aircraft(Motorised):
         super().__init__(make, wheels, typeOfEngine)
 
     def takeOff(self) -> None:
-        print(f"The {self.make} with {self.wheels()} wheels and a {self.typeOfEngine} engine is taking off.")
+        print(f"The {self.make} with {self.get_wheels()} wheels and a {self.typeOfEngine} engine is taking off.")
