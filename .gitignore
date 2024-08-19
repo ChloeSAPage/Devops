@@ -3,3 +3,6 @@ __pycache__
 .vscode
 q3/script_test.py
 test.py
+lambda_function/psycopg2
+lambda_function/psycopg2_binary-2.9.9.dist-info
+lambda_function/psycopg2_binary.libs
